@@ -1,0 +1,76 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETPortable,Version=v4.6,Profile=Profile44": {
+      "Newtonsoft.Json/10.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/10.0.3": {
+      "sha512": "hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
+      "type": "package",
+      "path": "newtonsoft.json/10.0.3",
+      "files": [
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.10.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Newtonsoft.Json >= 10.0.3"
+    ],
+    ".NETPortable,Version=v4.6,Profile=Profile44": []
+  },
+  "packageFolders": {
+    "/Users/jneumann/.nuget/packages/": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "/Users/jneumann/Projects/MyShopify/MyShopify/MyShopify.csproj",
+      "projectName": "MyShopify",
+      "projectPath": "/Users/jneumann/Projects/MyShopify/MyShopify/MyShopify.csproj",
+      "projectJsonPath": "/Users/jneumann/Projects/MyShopify/MyShopify/project.json",
+      "packagesPath": "/Users/jneumann/.nuget/packages/",
+      "projectStyle": "ProjectJson",
+      "configFilePaths": [
+        "/Users/jneumann/.config/NuGet/NuGet.Config"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      }
+    },
+    "dependencies": {
+      "Newtonsoft.Json": "10.0.3"
+    },
+    "frameworks": {
+      "portable46-net451+win81": {}
+    }
+  }
+}
